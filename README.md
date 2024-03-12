@@ -33,6 +33,7 @@ SQL is a database language that’s used to query and manipulate data in a datab
 #### Data Transfer Language (DTL) Commands
 
 ● COMMIT: used to save a transaction within the database permanently
+
 ● ROLLBACK: restores a database to the last committed state
 
 ## SQL Data Types
@@ -100,13 +101,13 @@ CREATE TABLE cats (
 
 OUTPUT FORMAT;
 
-.headers on->output the name of each column
+.headers on ->output the name of each column
 
 .mode column -> now we are in column mode, enabling us to run the next two .width commands
 
-.width auto->adjusts and normalizes column width
+.width auto -> adjusts and normalizes column width
 
-.width NUM1, NUM2 ->customize column width
+.width NUM1, NUM2 -> customize column width
 
 ### ALTER Statement
 ALTER TABLE:
@@ -134,11 +135,11 @@ TRUNCATE TABLE statement:
 
 ●INSERT INTO cats (name, age, breed) VALUES ('Maru', 3, 'Scottish Fold');
 
-●INSERT INTO Student
+● INSERT INTO Student
 VALUES ( 101, ’John’, ’Ray’, 78 ),
 ( 102, ‘Steve’, ’Jobs’, 89 );
 
-●When using a sql file, each statement gets its own line ending with a ';'. Then in terminal run: $ sqlite3 table_database.db < table.sql
+● When using a sql file, each statement gets its own line ending with a ';'. Then in terminal run: $ sqlite3 table_database.db < table.sql
 
 COPY DATA & INSERT:
 
@@ -162,7 +163,7 @@ WHERE [condition];
 
 Remove all rows (records) from a table without deleting the table with DELETE:
 
-●DELETE FROM table_name;
+● DELETE FROM table_name;
 
 ## Data Query Language Statements
 
