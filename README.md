@@ -360,5 +360,30 @@ table_name(col_name)
 
 RENAME TABLE old_table_name TO new_table_name;
 
+## The ACID Property
 
+The term ACID stands for Atomicity, Consistency, Isolation, and Durability. These
+individual properties represent a standardized group that are required to ensure the
+reliable processing of database transactions.
+
+#### Atomicity
+
+The concept that an entire transaction must be processed fully, or not at all.
+
+#### Consistency
+
+The requirement for a database to be consistent (valid data types, constraints, etc) both before and after a transaction is completed.
+
+#### Isolation
+
+Transactions must be processed in isolation and they must not interfere with other
+transactions.
+
+#### Durability
+
+After a transaction has been started, it must be processed successfully. This applies even if there is a system failure soon after the transaction is started.
+
+## RDBMS
+
+A Relational Database Management System (RDBMS) is a piece of software that allows you to perform database administration tasks on a relational database, including creating, reading, updating, and deleting data (CRUD). Relational databases store collections of data via columns and rows in various tables. Each table can be related to others via common attributes in the form of Primary and Foreign Keys.
 
