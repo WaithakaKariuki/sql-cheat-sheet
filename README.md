@@ -7,17 +7,23 @@ SQL is a database language that’s used to query and manipulate data in a datab
 #### Data Definition Language (DDL) Commands
 
 ● CREATE: creates a new database object, such as a table
+
 ● ALTER: used to modify a database object
+
 ● DROP: used to delete database objects
 
-#### Data Manipulation Language (DML) Commands● INSERT: used to insert a new row (record) in a database table
+#### Data Manipulation Language (DML) Commands
+
+● INSERT: used to insert a new row (record) in a database table
 
 ● UPDATE: used to modify an existing row (record) in a database table
+
 ● DELETE: used to delete a row (record) from a database table
 
 #### Data Control Language (DCL) Commands
 
 ● GRANT: used to assign user permissions to access database objects
+
 ● REVOKE: used to remove previously granted user permissions for accessing database objects
 
 #### Data Query Language (DQL) Commands
