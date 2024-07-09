@@ -267,7 +267,7 @@ SELECT FirstName, Marks FROM Student WHERE Marks NOT BETWEEN 40 AND 50;
 
 DROP TABLE table_name;
 
-## Table realations & JOINS:
+## Table relations & JOINS:
 
 ### INNER JOIN:
 
