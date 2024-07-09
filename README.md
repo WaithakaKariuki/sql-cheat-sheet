@@ -342,7 +342,7 @@ WHERE condition;
 
 -Constraints define rules that ensure consistency and correctness of data.
 
--CREATE TABLE table_name(
+CREATE TABLE table_name(
 col_name data_type,
 CONSTRAINT constraint_name
 PRIMARY KEY (col_name(s))
